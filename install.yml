@@ -1,0 +1,5 @@
+---
+- host: all
+  tasks:
+    - name: install one package
+      yum: name=tree state=latest
